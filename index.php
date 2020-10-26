@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
 	<title>AES encryption</title>
-	<link rel="icon" href="media/icon.png">
+	<link rel="icon" href="icon.png">
 	<link rel="stylesheet" href="style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<style>
@@ -45,24 +45,20 @@
 			<div class="showKey">
 				<p>KEY </p>
 				<button id="copyKey" onclick="copyToClipboard('#keyShow')">
-					<img src="media/copy.svg" alt="copy">
+					<img src="copy.svg" alt="copy">
 				</button>
 				<textarea readonly="readonly" id="keyShow" rols="1" cols="1"><?php echo $showKey;?></textarea>
 			</div>
 		<textarea readonly="readonly" cols="80" rows="15" id="result"><?php echo $result; ?></textarea>
-		<button id="copyData" onclick="copyToClipboard('#result')">Copy to clipboard <img src="media/copy.svg" alt="copy">
+		<button id="copyData" onclick="copyToClipboard('#result')">Copy to clipboard <img src="copy.svg" alt="copy">
 		</button>
 	</div>
 </div>
 <div class="footer">
-	<p>Programmed and styled by Dimitar Kalenderov.</p>
-	<a href="https://github.com/M1TKO/AES-encryption-website" target="_blank">
-		<img src="media/github.png" alt="github">
+		<img src="github.png" alt="github">
 	</a>
-	<a href="http://aesencryption.net/" target="_blank">
-		<img src="media/aes.JPG" alt="aes">
+		<img src="aes.JPG" alt="aes">
 	</a>
-	<p>Big thanks to aesencription.net for AES algorithm. <3</p>
 </div>
 
 <script type="text/javascript" src="script.js"></script>
